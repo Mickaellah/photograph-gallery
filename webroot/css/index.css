@@ -1,3 +1,6 @@
+ul {
+  list-style: none; }
+
 .masthead {
   display: flex;
   flex-direction: row;
