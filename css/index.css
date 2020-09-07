@@ -1,0 +1,51 @@
+.masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #434CCC;
+  padding-inline: 14px;
+  padding-block-start: 32px;
+  padding-block-end: 16px; }
+
+.masthead__header {
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+  margin-block-start: -10px; }
+
+.masthead__label_menu {
+  color: transparent;
+  margin-inline-end: -48px; }
+
+.masthead__label_menu::before {
+  content: url("../icons/icon_menu.svg");
+  margin-inline-end: 16px; }
+
+.masthead__navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -250px;
+  width: 200px;
+  z-index: 1;
+  background-color: skyblue; }
+
+.masthead__list_item {
+  margin-block-start: 16px; }
+
+.masthead__link {
+  text-decoration: none;
+  color: gray; }
+
+[type="checkbox"] {
+  display: none; }
+
+[type="checkbox"]:checked ~ .masthead__navigation {
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 1;
+  background-color: skyblue;
+  transform: translateX(0); }
