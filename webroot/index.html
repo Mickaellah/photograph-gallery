@@ -7,26 +7,38 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
+  <input class="masthead__checkbox_input" type="checkbox" id="checkbox_menu">
 
-    <h1>
+  <header class="masthead">
+    <h1 class="masthead__header">
       Photograph
     </h1>
 
-    <input type="checkbox" id="checkbox_menu">
-    <label for="checkbox_menu">Menu</label>
-
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="masthead__menu">
+      <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+    </div>
 
   </header>
-  
+
+  <nav class="masthead__navigation">
+    <ul class="masthead__navigation_container">
+      <li class="masthead__list_item">
+        <a class="masthead__link" href="/">Home</a>
+      </li>
+      <li class="masthead__list_item">
+        <a class="masthead__link" href="/about">About</a>
+      </li>
+      <li class="masthead__list_item">
+        <a class="masthead__link" href="/portfolio">Portfolio</a>
+      </li>
+      <li class="masthead__list_item">
+        <a class="masthead__link" href="/blog">Blog</a>
+      </li>
+      <li class="masthead__list_item">
+        <a class="masthead__link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
 </body>
 </html>

@@ -1,0 +1,36 @@
+.masthead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.masthead__label_menu::before {
+  content: url("../icons/icon_menu.svg");
+}
+
+.masthead__navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  z-index: 1;
+  background-color: white;
+}
+
+.masthead__list_item {
+  -webkit-margin-before: 16px;
+          margin-block-start: 16px;
+}
+
+.masthead__link {
+  text-decoration: none;
+  color: gray;
+}
+/*# sourceMappingURL=index.css.map */
