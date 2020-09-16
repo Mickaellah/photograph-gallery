@@ -14,6 +14,12 @@ ul {
 p {
   font-size: 18px; }
 
+small {
+  font-size: 16px; }
+
+footer {
+  background-color: white; }
+
 .masthead {
   display: flex;
   flex-direction: row;
@@ -214,3 +220,23 @@ label {
   background-color: blue;
   border: none;
   margin-block-end: 38px; }
+
+.paragraf {
+  padding: 16px; }
+
+.paragraf__heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-block-start: 43px; }
+
+.paragraf__information {
+  color: rgba(0, 0, 0, 0.5); }
+
+.paragraf__navigation_container {
+  display: flex; }
+
+.paragraf__list_item {
+  margin-block-start: 16px; }
+
+.paragraf__list_item:not(.paragraf__list_item--facebook) {
+  margin-inline-start: 10px; }
