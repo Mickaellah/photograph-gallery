@@ -140,3 +140,7 @@ ul {
 .beauty__list_item--lens {
   grid-row: 2 / 3;
   grid-column: 2 / 3; }
+
+@media (max-width: 400px) {
+  .beauty__image--ripples_half {
+    height: 77px; } }
