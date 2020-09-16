@@ -259,3 +259,21 @@ label {
 .paragraf__link--home {
   color: black;
   font-weight: bold; }
+
+.paragraf__date_navigation {
+  margin-block-start: 77px; }
+
+.woman,
+.passage {
+  max-width: 77px;
+  max-height: 48px;
+  border-radius: 5px; }
+
+.paragraf__taste_description,
+.paragraf__experience_place {
+  margin-inline-start: 24px; }
+
+.paragraf__date {
+  margin-inline-start: 110px;
+  font-size: 12px;
+  font-weight: bold; }
