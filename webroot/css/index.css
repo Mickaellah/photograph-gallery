@@ -20,6 +20,9 @@ small {
 footer {
   background-color: white; }
 
+a {
+  text-decoration: none; }
+
 .masthead {
   display: flex;
   flex-direction: row;
@@ -240,3 +243,19 @@ label {
 
 .paragraf__list_item:not(.paragraf__list_item--facebook) {
   margin-inline-start: 10px; }
+
+.paragraf__links_navigation {
+  margin-block-start: 62px; }
+
+.paragraf__links_list:not(.paragraf__links_list--about) {
+  margin-block-start: 16px; }
+
+.paragraf__links_list--about {
+  margin-block-start: 24px; }
+
+.paragraf__link {
+  color: rgba(0, 0, 0, 0.5); }
+
+.paragraf__link--home {
+  color: black;
+  font-weight: bold; }
