@@ -47,6 +47,12 @@
 
 .paragraf__date_navigation {
   margin-block-start: 77px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.paragraf__date_list {
+  display: flex;
+  flex-direction: row;
 }
 
 .woman,
@@ -56,13 +62,26 @@
   border-radius: 5px;
 }
 
+.paragraf__content {
+  margin-inline-start: 32px;
+}
+
 .paragraf__taste_description,
 .paragraf__experience_place {
-  margin-inline-start: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.paragraf__date_list--place {
+  margin-block-start: 16px;
+  margin-block-end: 53px;
 }
 
 .paragraf__date {
-  margin-inline-start: 110px;
   font-size: 12px;
   font-weight: bold;
+}
+
+.paragraf__copyright {
+  margin-block-start: 32px;
+  color: rgba(0, 0, 0, 0.5);
 }
