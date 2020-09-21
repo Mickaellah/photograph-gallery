@@ -63,13 +63,14 @@
   grid-row: 2 / 3;
   grid-column: 3 / 5;
 }
-
-.beauty__figure--ripples_half {
+.beauty__figure--ripples_sm {
   grid-row: 2 / 3;
   grid-column: 5 / 6;
+  width: 230%;
 }
 
-.beauty__image--ripple_sm,
+
+
 .beauty__image--dunes_sm,
 .beauty__image--arches_sm,
 .beauty__image--sunset_sm,
@@ -78,7 +79,7 @@
 }
 
 .beauty__navigation {
-  margin-block-start: 92px;
+  margin-block-start: 76px;
 }
 
 .beauty__information_container {
