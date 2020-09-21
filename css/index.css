@@ -230,10 +230,6 @@ a {
 .beauty__number {
   font-family: "DM Sans Bold"; }
 
-@media (max-width: 400px) {
-  .beauty__image--ripples_half {
-    height: 77px; } }
-
 @media (min-width: 768px) {
   .beauty__heading {
     max-width: 500px; }
