@@ -108,6 +108,23 @@ a {
   background-color: skyblue;
   transform: translateX(0); }
 
+@media (min-width: 768px) {
+  .masthead > * {
+    max-width: 1170px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .masthead__header {
+    margin-inline-start: 70px; }
+  .masthead__label_menu::before {
+    display: none; }
+  .masthead__navigation_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline-start: 80vw; }
+  .masthead__link {
+    color: white; } }
+
 .beauty {
   padding: 16px; }
 
