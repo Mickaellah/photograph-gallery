@@ -49,6 +49,12 @@ footer {
 a {
   text-decoration: none; }
 
+@media (min-width: 768px) {
+  section > * {
+    max-width: 1170px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; } }
+
 .masthead {
   display: flex;
   flex-direction: row;
