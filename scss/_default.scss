@@ -1,7 +1,9 @@
+@import "variables";
+
 html {
   background-color: whitesmoke;
   font-family: "DM Sans";
-  font-size: 16px;
+  font-size: $paragraph_font_size;
 }
 
 h1,
@@ -28,7 +30,7 @@ ul {
 }
 
 small {
-  font-size: 16px;
+  font-size: $paragraph_font_size;
 }
 
 footer {
