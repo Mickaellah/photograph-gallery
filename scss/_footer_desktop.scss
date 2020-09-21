@@ -5,9 +5,15 @@
     margin-inline-end: auto;
   }
 
-  .photograf:not(.photograf__copyright) {
+
+
+  .photograf {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .photograf__container {
+    max-width: 256px;
   }
 
   .photograf__links_navigation {
@@ -30,6 +36,6 @@
 
   .photograf__writer,
   .photograf__reliesed_year {
-    margin-block-start: -60px;
+    margin-block-start: -50px;
   }
 }
