@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #434CCC;
   padding-inline: 14px;
-  padding-block-start: 32px;
+  padding-block-start: $margin-inline;
   padding-block-end: $paragraph_font_size;
 }
 
@@ -39,7 +39,7 @@
 
 .masthead__list_item {
   margin-block-start: $paragraph_font_size;
-  margin-inline-start: 32px;
+  margin-inline-start: $margin-inline;
 }
 
 .masthead__link {

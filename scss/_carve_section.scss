@@ -1,15 +1,17 @@
+@import "variables";
+
 .carve {
-  padding: 16px;
+  padding: $paragraph_font_size;
 }
 
 .carve__information {
   margin-block-start: 0;
-  margin-block-end: 32px;
+  margin-block-end: $margin-inline;
   font-size: 18px;
 }
 
 .carve__small_text {
-  font-size: 16px;
+  font-size: $paragraph_font_size;
   color: rgba(0, 0, 0, 0.5);
 }
 

@@ -1,5 +1,7 @@
+@import "variables";
+
 .photograf {
-  padding: 16px;
+  padding: $paragraph_font_size;
 }
 
 .photograf__heading {
@@ -17,7 +19,7 @@
 }
 
 .photograf__list_item {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
 }
 
 .photograf__list_item:not(.photograf__list_item--facebook) {
@@ -29,7 +31,7 @@
 }
 
 .photograf__links_list:not(.photograf__links_list--about) {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
 }
 
 .photograf__links_list--about {
@@ -62,7 +64,7 @@
 }
 
 .photograf__content {
-  margin-inline-start: 32px;
+  margin-inline-start: $margin-inline;
 }
 
 .photograf__taste_description,
@@ -71,7 +73,7 @@
 }
 
 .photograf__date_list--place {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
   margin-block-end: 53px;
 }
 
@@ -81,7 +83,7 @@
 }
 
 .photograf__copyright {
-  margin-block-start: 32px;
+  margin-block-start: $margin-inline;
   color: rgba(0, 0, 0, 0.5);
   border-top: 1px solid lightgray;
 }

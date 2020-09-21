@@ -1,6 +1,8 @@
+@import "variables";
+
 .updating {
   background-color: #FFDD78;
-  padding: 16px;
+  padding: $paragraph_font_size;
 }
 
 .container {
@@ -29,19 +31,19 @@ label {
 }
 
 #email {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
   padding: 12px;
   border-radius: 5px;
   border: none;
 }
 
 .updating__subscribe_bttn {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
   padding-inline: 48px;
-  padding-block: 16px;
+  padding-block: $paragraph_font_size;
   border-radius: 5px;
   color: white;
-  background-color: blue;
+  background-color: $primary_color;
   border: none;
   margin-block-end: 38px;
 }
