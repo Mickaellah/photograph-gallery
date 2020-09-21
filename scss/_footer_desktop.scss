@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .footer > * {
+    max-width: 1170px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
+  .photograf:not(.photograf__copyright) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .photograf__links_navigation {
+    margin-inline-start: 48px;
+  }
+
+  .photograf__links_list:nth-of-type(1) {
+    margin-block-start: -10px;
+  }
+
+  .photograf__date_list--taste {
+    margin-block-start: -20px;
+  }
+
+  .photograf__copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+  }
+
+  .photograf__writer,
+  .photograf__reliesed_year {
+    margin-block-start: -60px;
+  }
+}
