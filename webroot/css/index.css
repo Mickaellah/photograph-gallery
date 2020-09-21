@@ -267,7 +267,10 @@ a {
     grid-column: 7 / 8; }
   .beauty__figure--canyon_sm {
     grid-row: 2 / 3;
-    grid-column: 8 / 9; } }
+    grid-column: 8 / 9; }
+  .beauty__navigation {
+    max-width: 500px;
+    margin-inline-start: 70px; } }
 
 .carve {
   padding: 16px; }
@@ -287,6 +290,13 @@ a {
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px; }
+
+@media (min-width: 768px) {
+  .carve {
+    margin-inline-start: 45vw;
+    margin-inline-end: 70px;
+    margin-block-start: -240px;
+    margin-block-end: 60px; } }
 
 .updating {
   background-color: #FFDD78;
