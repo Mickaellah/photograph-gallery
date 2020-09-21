@@ -438,9 +438,11 @@ label {
     max-width: 1170px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
-  .photograf:not(.photograf__copyright) {
+  .photograf {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
+  .photograf__container {
+    max-width: 256px; }
   .photograf__links_navigation {
     margin-inline-start: 48px; }
   .photograf__links_list:nth-of-type(1) {
@@ -453,4 +455,4 @@ label {
     padding: 80px; }
   .photograf__writer,
   .photograf__reliesed_year {
-    margin-block-start: -60px; } }
+    margin-block-start: -50px; } }
