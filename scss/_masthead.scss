@@ -5,7 +5,7 @@
   background-color: #434CCC;
   padding-inline: 14px;
   padding-block-start: 32px;
-  padding-block-end: 16px;
+  padding-block-end: $paragraph_font_size;
 }
 
 .masthead__header {
@@ -22,7 +22,7 @@
 
 .masthead__label_menu::before {
   content: url('../icons/icon_menu.svg');
-  margin-inline-end: 16px;
+  margin-inline-end: $paragraph_font_size;
 
 }
 
@@ -33,12 +33,12 @@
   left: -250px;
   width: 200px;
   z-index: 1;
-  background-color: dodgerblue;
+  background-color: $primary_color;
 
 }
 
 .masthead__list_item {
-  margin-block-start: 16px;
+  margin-block-start: $paragraph_font_size;
   margin-inline-start: 32px;
 }
 
