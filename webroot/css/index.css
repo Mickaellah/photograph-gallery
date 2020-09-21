@@ -53,7 +53,15 @@ a {
   section > * {
     max-width: 1170px;
     margin-inline-start: auto;
-    margin-inline-end: auto; } }
+    margin-inline-end: auto; }
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 72px; }
+  h3 {
+    font-size: 52px; }
+  h4 {
+    font-size: 24px; } }
 
 .masthead {
   display: flex;
