@@ -1,5 +1,7 @@
+@import "variables";
+
 .beauty {
-  padding: 16px;
+  padding: $paragraph_font_size;
 }
 
 .beauty__header {
@@ -10,7 +12,7 @@
 
 .beauty__portfolio_link::before {
   content: url('../icons/icon_arrow_left.svg');
-  margin-inline-end: 16px;
+  margin-inline-end: $paragraph_font_size;
 }
 
 .beauty__link {
@@ -38,10 +40,10 @@
 .beauty__images_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 16px;
-  column-gap: 16px;
-  grid-row-gap: 16px;
-  row-gap: 16px;
+  grid-column-gap: $paragraph_font_size;
+  column-gap: $paragraph_font_size;
+  grid-row-gap: $paragraph_font_size;
+  row-gap: $paragraph_font_size;
 }
 
 
