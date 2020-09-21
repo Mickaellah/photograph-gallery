@@ -27,7 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "DM Serif Display"; }
+  font-family: "DM Serif Display";
+  font-weight: normal; }
 
 h2 {
   font-size: 54px; }
