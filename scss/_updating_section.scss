@@ -37,6 +37,10 @@ label {
   border: none;
 }
 
+#email:focus {
+  background-color: powderblue;
+}
+
 .updating__subscribe_bttn {
   margin-block-start: $paragraph_font_size;
   padding-inline: 48px;
@@ -47,3 +51,9 @@ label {
   border: none;
   margin-block-end: 38px;
 }
+
+.updating__subscribe_bttn:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px tomato;
+} 
