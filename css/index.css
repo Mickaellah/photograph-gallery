@@ -333,6 +333,9 @@ label {
   border-radius: 5px;
   border: none; }
 
+#email:focus {
+  background-color: powderblue; }
+
 .updating__subscribe_bttn {
   margin-block-start: 16px;
   padding-inline: 48px;
@@ -342,6 +345,11 @@ label {
   background-color: #434ccc;
   border: none;
   margin-block-end: 38px; }
+
+.updating__subscribe_bttn:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px tomato; }
 
 @media (min-width: 768px) {
   .updating {
