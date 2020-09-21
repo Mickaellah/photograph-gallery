@@ -1,23 +1,23 @@
 @font-face {
   font-family: "DM Serif Display";
-  src: url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"), url("../fonts/DMSerifDisplay-Regular.woff") format("woff");
+  src: local("DM Serif Display");
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
   font-family: "DM Sans";
-  src: url("../fonts/DMSans-Regular.woff2") format("woff2"), url("../fonts/DMSans-Regular.woff") format("woff");
+  src: local("DM Sans");
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
   font-family: "DM Sans Bold";
-  src: url("../fonts/DMSans-Bold.woff2") format("woff2"), url("../fonts/DMSans-Bold.woff") format("woff");
+  src: local("DM Sans");
   font-style: normal;
   font-weight: 700; }
 
 html {
-  background-color: whitesmoke;
+  background-color: ghostwhite;
   font-family: "DM Sans";
   font-size: 16px; }
 
@@ -290,7 +290,8 @@ a {
 
 .carve__navigation_container {
   margin-block-start: 30px;
-  display: flex; }
+  display: flex;
+  margin-block-end: 80px; }
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px; }
