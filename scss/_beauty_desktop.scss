@@ -1,0 +1,67 @@
+@media (min-width: 768px) {
+  .beauty__heading {
+    max-width: 500px;
+  }
+
+  .beauty__image--rock_carving_md {
+    width: 100%;
+  }
+
+  .beauty__image--dunes_sm,
+  .beauty__image--arches_sm,
+  .beauty__image--car_sm,
+  .beauty__image--sunset_sm,
+  .beauty__image--canyon_sm {
+    display: block;
+  }
+
+  .beauty__images_container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .beauty__figure--rock_carving_md {
+    grid-row: 1 / 2;
+    grid-column: 1 / 9;
+  }
+  
+  .beauty__figure--rock_carving_sm {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  
+  .beauty__figure--stairs_sm {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  .beauty__figure--ripples_sm {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    width: auto;
+  }
+
+  .beauty__figure--dunes_sm {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+  }
+
+  .beauty__figure--arches_sm {
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+  }
+
+  .beauty__figure--car_sm {
+    grid-row: 2 / 3;
+    grid-column: 6 / 7;
+  }
+
+  .beauty__figure--sunset_sm {
+    grid-row: 2 / 3;
+    grid-column: 7 / 8;
+  }
+
+  .beauty__figure--canyon_sm {
+    grid-row: 2 / 3;
+    grid-column: 8 / 9;
+  }
+}
