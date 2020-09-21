@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .updating {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .updating__header {
+    max-width: 500px;
+    margin-block-start: 29px;
+  }
+
+  .updating__form {
+    display: flex;
+    margin-block-start: 116px;
+    margin-block-end: 100px;
+  } 
+
+  #email {
+    padding: 16px;
+    padding-inline-end: 100px;
+  }
+
+  .updating__subscribe_bttn {
+    margin-inline-start: 32px;
+    margin-block-start: 30px;
+  }
+}
