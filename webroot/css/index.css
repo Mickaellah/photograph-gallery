@@ -438,7 +438,8 @@ label {
 .photograf__copyright {
   margin-block-start: 32px;
   color: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid lightgray; }
+  border-top: 1px solid lightgray;
+  padding: 16px; }
 
 @media (min-width: 768px) {
   .footer > * {
