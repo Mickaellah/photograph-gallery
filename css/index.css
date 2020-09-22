@@ -50,7 +50,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #434ccc; }
+  color: purple; }
 
 @media (min-width: 768px) {
   section > * {
@@ -277,6 +277,62 @@ a:hover {
   .beauty__navigation {
     max-width: 400px;
     margin-inline-start: 70px; } }
+
+.outer_modal {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.inner_modal {
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-100vh);
+  transition: all 0.5s;
+  max-width: 1000px;
+  height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  color: black;
+  margin: 3rem; }
+
+.outer_modal figure {
+  height: 100%;
+  display: grid;
+  margin: 0;
+  grid-template-rows: 1fr auto; }
+
+.outer_modal img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain; }
+
+.outer_modal.open {
+  opacity: 1;
+  pointer-events: all; }
+
+.outer_modal figcaption {
+  padding: 10px; }
+
+.outer_modal h2 {
+  color: black; }
+
+.outer_modal.open .inner_modal {
+  transform: translateY(0); }
+
+.previous,
+.next {
+  background-color: slateblue; }
 
 .carve {
   padding: 16px; }
