@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: $primary-color;
+}
+
 @media (min-width: 768px) {
   section > * {
     max-width: $max-width;
