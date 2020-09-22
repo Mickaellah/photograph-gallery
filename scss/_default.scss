@@ -43,7 +43,7 @@ a {
 
 @media (min-width: 768px) {
   section > * {
-    max-width: 1170px;
+    max-width: $max-width;
     margin-inline-start: auto;
     margin-inline-end: auto;
   }
