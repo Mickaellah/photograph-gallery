@@ -56,4 +56,11 @@ label {
   transform: scale(1.1);
   border: 1px solid white;
   box-shadow: 2px 2px 2px tomato;
-} 
+}
+
+@media screen and (min-width: 768px), (max-width: 1000px) {
+  .updating__subscribe_bttn {
+    height: 48px;
+    margin-block-start: 80px;
+  }
+}

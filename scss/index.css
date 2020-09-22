@@ -582,6 +582,14 @@ label {
           box-shadow: 2px 2px 2px tomato;
 }
 
+@media screen and (min-width: 768px), (max-width: 1000px) {
+  .updating__subscribe_bttn {
+    height: 48px;
+    -webkit-margin-before: 80px;
+            margin-block-start: 80px;
+  }
+}
+
 @media (min-width: 768px) {
   .updating {
     display: -ms-grid;
