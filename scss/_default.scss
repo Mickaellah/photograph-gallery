@@ -44,8 +44,8 @@ a {
 @media (min-width: 768px) {
   section > * {
     max-width: $max-width;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    margin-inline-start: $margin-auto;
+    margin-inline-end: $margin-auto;
   }
 
   h1 {
