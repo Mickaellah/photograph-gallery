@@ -49,6 +49,9 @@ footer {
 a {
   text-decoration: none; }
 
+a:hover {
+  color: #434ccc; }
+
 @media (min-width: 768px) {
   section > * {
     max-width: 1170px;
