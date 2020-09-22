@@ -17,7 +17,7 @@
 
 .beauty__link {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
 }
 
 .beauty__description {
@@ -91,7 +91,7 @@
 }
 
 .beauty__list_item p:nth-of-type(1) {
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
 }
 
 .beauty__list_item--date {

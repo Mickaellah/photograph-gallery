@@ -7,11 +7,11 @@
 .photograf__heading {
   font-size: 24px;
   text-transform: uppercase;
-  margin-block-start: 43px;
+  margin-block-start: 60px;
 }
 
 .photograf__information {
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
 }
 
 .photograf__navigation_container {
@@ -39,7 +39,7 @@
 }
 
 .photograf__link {
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
 }
 
 .photograf__link--home {
@@ -69,7 +69,7 @@
 
 .photograf__taste_description,
 .photograf__experience_place {
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
 }
 
 .photograf__date_list--place {
@@ -84,6 +84,6 @@
 
 .photograf__copyright {
   margin-block-start: $margin-inline;
-  color: rgba(0, 0, 0, 0.5);
+  color: $text-color;
   border-top: 1px solid lightgray;
 }

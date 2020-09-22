@@ -93,7 +93,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #434CCC;
+  background-color: #434ccc;
   padding-inline: 14px;
   -webkit-padding-before: 32px;
           padding-block-start: 32px;
@@ -128,7 +128,6 @@ a {
   left: -250px;
   width: 200px;
   z-index: 1;
-  background-color: #434ccc;
 }
 
 .masthead__list_item {
@@ -620,8 +619,8 @@ label {
 .photograf__heading {
   font-size: 24px;
   text-transform: uppercase;
-  -webkit-margin-before: 43px;
-          margin-block-start: 43px;
+  -webkit-margin-before: 60px;
+          margin-block-start: 60px;
 }
 
 .photograf__information {
