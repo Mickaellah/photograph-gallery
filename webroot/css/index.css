@@ -275,7 +275,7 @@ a:hover {
     grid-row: 2 / 3;
     grid-column: 8 / 9; }
   .beauty__navigation {
-    max-width: 500px;
+    max-width: 400px;
     margin-inline-start: 70px; } }
 
 .carve {
@@ -297,10 +297,6 @@ a:hover {
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px; }
-
-@media (max-width: 800px) {
-  .carve {
-    margin: 0; } }
 
 @media (min-width: 768px) {
   .carve {

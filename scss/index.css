@@ -456,7 +456,7 @@ a:hover {
     grid-column: 8 / 9;
   }
   .beauty__navigation {
-    max-width: 500px;
+    max-width: 400px;
     -webkit-margin-start: 70px;
             margin-inline-start: 70px;
   }
