@@ -34,7 +34,7 @@ small {
 }
 
 footer {
-  background-color: white;
+  background-color: $color_white;
 }
 
 a {
@@ -65,6 +65,6 @@ a:hover {
   }
 
   h4 {
-    font-size: 24px;
+    font-size: calc($gap / 2);
   }
 }

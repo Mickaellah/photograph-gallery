@@ -1,6 +1,6 @@
 .outer_modal {
 	position: fixed;
-	background: rgba(0, 0, 0, 0.5);
+	background: $text-color;
 	z-index: 2;
 	top: 0;
 	right: 0;
@@ -16,15 +16,15 @@
 
 .inner_modal {
 	border-radius: 4px;
-	background: white;
-	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+	background: $color_white;
+	box-shadow: 0 0 10px 10px $text-color;
 	transform: translateY(-100vh);
 	transition: all 0.5s;
 	max-width: 1000px;
 	height: calc(100vh - 100px);
 	display: grid;
 	grid-template-columns: 50px 1fr 50px;
-	color: black;
+	color: $color_black;
 	margin: 3rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .outer_modal h2 {
-	color: black;
+	color: $color_black;
 }
 
 .outer_modal.open .inner_modal {

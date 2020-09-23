@@ -43,7 +43,7 @@
 }
 
 .photograf__link--home {
-  color: black;
+  color: $color_black;
   font-weight: bold;
 }
 
@@ -59,7 +59,7 @@
 .woman,
 .passage {
   max-width: 77px;
-  max-height: 48px;
+  max-height: $gap;
   border-radius: 5px;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .photograf__date {
-  font-family: "DM Sans Bold";
   font-size: 12px;
+  font-weight: 700;
 }
 
 .photograf__copyright {

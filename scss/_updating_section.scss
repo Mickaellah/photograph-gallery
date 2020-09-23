@@ -43,10 +43,10 @@ label {
 
 .updating__subscribe_bttn {
   margin-block-start: $paragraph_font_size;
-  padding-inline: 48px;
+  padding-inline: $gap;
   padding-block: $paragraph_font_size;
   border-radius: 5px;
-  color: white;
+  color: $color_white;
   background-color: $primary_color;
   border: none;
   margin-block-end: 38px;
@@ -54,13 +54,13 @@ label {
 
 .updating__subscribe_bttn:hover {
   transform: scale(1.1);
-  border: 1px solid white;
+  border: 1px solid $color_white;
   box-shadow: 2px 2px 2px tomato;
 }
 
 @media screen and (min-width: 768px), (max-width: 1000px) {
   .updating__subscribe_bttn {
-    height: 48px;
+    height: $gap;
     margin-block-start: 80px;
   }
 }

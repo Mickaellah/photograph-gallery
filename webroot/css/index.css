@@ -58,7 +58,7 @@ a:hover {
   h3 {
     font-size: 52px; }
   h4 {
-    font-size: 24px; } }
+    font-size: calc($gap / 2); } }
 
 .masthead {
   display: flex;
@@ -72,7 +72,7 @@ a:hover {
 .masthead__header {
   margin: 0;
   text-transform: uppercase;
-  color: #ffffff;
+  color: white;
   margin-block-start: -10px; }
 
 .masthead__label_menu {
@@ -290,7 +290,7 @@ a:hover {
 .inner_modal {
   border-radius: 4px;
   background: white;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
   transform: translateY(-100vh);
   transition: all 0.5s;
   max-width: 1000px;
@@ -487,8 +487,8 @@ label {
   margin-block-end: 53px; }
 
 .photograf__date {
-  font-family: "DM Sans Bold";
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: 700; }
 
 .photograf__copyright {
   margin-block-start: 32px;

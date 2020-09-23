@@ -86,8 +86,8 @@
 .beauty__information_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 48px;
-  column-gap: 48px;
+  grid-column-gap: $gap;
+  column-gap: $gap;
 }
 
 .beauty__list_item p:nth-of-type(1) {
