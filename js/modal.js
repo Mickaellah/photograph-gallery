@@ -45,17 +45,17 @@ function Gallery(gallery) {
 
   // Show the next image.
   function showNextImage() {
-    // showImage(currentImage.nextElementSibling || gallery.firstElementChild);
     showImage(currentImage.nextElementSibling || gallery.firstElementChild);
+    console.log(showImage);
   }
 
   // Show the previous image.
   function showPrevImage() {
-    // showImage(currentImage.previousElementSibling || gallery.lastElementChild);
-    showImage(currentImage.previousElementSibling || gallery.lastElement);
+    showImage(currentImage.previousElementSibling || gallery.lastElementChild);
+    console.log(showImage);
   }
 
-  // Handle the some keys.
+  // Handle some keys.
   function handleKeyUp(e) {
     if (e.key === 'Escape') {
       closeModal();
