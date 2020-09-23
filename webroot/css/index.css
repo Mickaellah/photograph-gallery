@@ -10,12 +10,6 @@
   font-style: normal;
   font-weight: 400; }
 
-@font-face {
-  font-family: "DM Sans Bold";
-  src: local("DM Sans");
-  font-style: normal;
-  font-weight: 700; }
-
 html {
   background-color: ghostwhite;
   font-family: "DM Sans";
