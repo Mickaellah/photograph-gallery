@@ -97,4 +97,4 @@ function Gallery(gallery) {
 }
 
 
-const image1 = Gallery(document.querySelector('.beauty__gallery'));
+const image = Gallery(document.querySelector('.beauty__gallery'));
