@@ -8,6 +8,7 @@ function Gallery(gallery) {
   const outerModal = document.querySelector('.outer_modal');
   const prevBttn = outerModal.querySelector('.previous');
   const nextBttn = outerModal.querySelector('.next');
+  const innerModal = document.querySelector('.inner_modal');
 
   let currentImage;
 
@@ -75,7 +76,7 @@ function Gallery(gallery) {
     }
 
     console.log(element);
-    outerModal.querySelector('img').src = element.src;
+    outerModal.querySelector('figure img').src = element.src;
     currentImage = element;
     openModal();
   }
