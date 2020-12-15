@@ -3,9 +3,10 @@
 ## Table of Contents
 
 -   [Overview](#overview)
-    -   [Built With](#built-with)
+-   [Built With](#built-with)
 -   [What I did](#what-I-did)
 -   [How does it work](#how-does-it-work)
+-   [How to use](#how-to-use)
 -   [Contact](#contact)
 
 <!-- OVERVIEW -->
