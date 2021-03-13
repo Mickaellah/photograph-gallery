@@ -15,6 +15,9 @@ html {
   font-family: "DM Sans";
   font-size: 16px; }
 
+body {
+  font-size: 18px; }
+
 h1,
 h2,
 h3,
@@ -25,7 +28,7 @@ h6 {
   font-weight: normal; }
 
 h2 {
-  font-size: 54px; }
+  font-size: 52px; }
 
 h3 {
   font-size: 40px; }
@@ -116,7 +119,8 @@ a:hover {
   .masthead > * {
     max-width: 1170px;
     margin-inline-start: auto;
-    margin-inline-end: auto; }
+    margin-inline-end: auto;
+    padding: 16px; }
   .masthead__header {
     margin-inline-start: 70px; }
   .masthead__label_menu::before {
@@ -125,6 +129,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-block-start: 40px;
     margin-inline-start: 80vw; }
   .masthead__link {
     color: white; } }
@@ -341,7 +346,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.5); }
 
 .carve__navigation_container {
-  margin-block-start: 30px;
+  margin-block-start: 48px;
   display: flex;
   margin-block-end: 80px; }
 
@@ -368,22 +373,29 @@ a:hover {
 
 .updating__category {
   margin-block-start: 47px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 16px; }
 
 .form_container {
+  margin-block-start: 16px;
   display: flex;
   flex-direction: column; }
 
 label {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold; }
 
 #email {
   margin-block-start: 16px;
-  padding: 12px;
+  padding-block: 15px;
+  padding-inline-start: 16px;
   border-radius: 5px;
   border: none; }
+
+::placeholder {
+  color: gray;
+  font-size: 16px; }
 
 #email:focus {
   background-color: powderblue; }
@@ -396,7 +408,9 @@ label {
   color: white;
   background-color: #434ccc;
   border: none;
-  margin-block-end: 38px; }
+  margin-block-end: 38px;
+  font-size: 16px;
+  font-weight: 700; }
 
 .updating__subscribe_bttn:hover {
   transform: scale(1.1);
@@ -405,8 +419,7 @@ label {
 
 @media screen and (min-width: 768px), (max-width: 1000px) {
   .updating__subscribe_bttn {
-    height: 48px;
-    margin-block-start: 80px; } }
+    height: 48px; } }
 
 @media (min-width: 768px) {
   .updating {
@@ -424,7 +437,7 @@ label {
     padding-inline-end: 100px; }
   .updating__subscribe_bttn {
     margin-inline-start: 32px;
-    margin-block-start: 30px; } }
+    margin-block-start: 48px; } }
 
 .photograf {
   padding: 16px; }
@@ -507,7 +520,10 @@ label {
   .photograf__container {
     max-width: 256px; }
   .photograf__links_navigation {
-    margin-inline-start: 48px; }
+    margin-inline-start: 48px;
+    margin-block-start: 80px; }
+  .photograf__date_navigation {
+    margin-block-start: 93px; }
   .photograf__links_list:nth-of-type(1) {
     margin-block-start: -10px; }
   .photograf__date_list--taste {
