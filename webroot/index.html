@@ -59,70 +59,67 @@
         </p>
       </div>
 
-      <div class="beauty__images_container beauty__gallery">
-        <figure class="beauty__figure beauty__figure--rock_carving_md">
+      <div class="beauty__images_container">
+        <figure id="previous_image" class="beauty__figure beauty__figure--rock_carving_md">
           <img 
-            class="beauty__image beauty__image--rock_carving_md" 
+            class="beauty__image--rock_carving_md" 
             src="./images/rock_carvings_md.jpg" 
             alt="Rock carving"
           >
         </figure>
-        <figure class="beauty__figure beauty__figure--rock_carving_sm">
-          <img 
-            class="beauty__image beauty__image--rock_carving_sm" 
-            src="./images/rock_carvings_sm.jpg" 
-            alt="Canyon small"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--stairs_sm">
-          <img 
-            class="beauty__image beauty__image--stairs_sm" 
-            src="./images/stairs_sm.jpg" 
-            alt="Stairs small"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--ripples_sm">
-          <img 
-            class="beauty__image beauty__image--ripple_sm" 
-            src="./images/ripples_sm.jpg" 
-            alt="Ripple small"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--dunes_sm">
-          <img 
-            class="beauty__image beauty__image--dunes_sm" 
-            src="./images/dunes_sm.jpg" 
-            alt="Sand dunes"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--arches_sm">
-          <img 
-            class="beauty__image beauty__image--arches_sm" 
-            src="./images/arches_sm.jpg" 
-            alt="Arches"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--car_sm">
-          <img 
-            class="beauty__image beauty__image--car_sm" 
-            src="./images/car_sm.jpg" 
-            alt="Car"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--sunset_sm">
-          <img 
-            class="beauty__image beauty__image--sunset_sm" 
-            src="./images/sunset_sm.jpg" 
-            alt="Sunset"
-          >
-        </figure>
-        <figure class="beauty__figure beauty__figure--canyon_sm">
-          <img 
-            class="beauty__image beauty__image--canyon_sm" 
-            src="./images/canyon_sm.jpg" 
-            alt="Canyon small"
-          >
-        </figure>
+        <nav class="beauty__images_navigation">
+          <ul class="beauty__images_navigation_container">
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/rock_carvings_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--rock_carving_sm" src="./images/rock_carvings_sm.jpg" alt="Rock carving">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/stairs_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--stairs_sm" src="./images/stairs_sm.jpg" alt="Stairs">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/ripples_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--ripple_sm" src="./images/ripples_sm.jpg" alt="Ripple">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/dunes_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--dunes_sm" src="./images/dunes_sm.jpg" alt="Dunes">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/arches_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--arches_sm" src="./images/arches_sm.jpg" alt="Arches">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/car_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--car_sm" src="./images/car_sm.jpg" alt="Cars">
+                </picture>
+              </a>
+            </li>
+            <li class="beauty__images_navigation_list-item">
+              <a class="images__link" href="./images/canyon_md.jpg">
+                <picture>
+                  <img class="beauty__image beauty__image--canyon_sm" src="./images/canyon_sm.jpg" alt="Canyon">
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <nav class="beauty__navigation">
@@ -329,15 +326,18 @@
 
   </footer>
 
-  <div class="outer_modal">
-    <div class="inner_modal">
-      <button aria-label="Previous Photo" class="previous">←</button>
-      <figure>
-        <img src="./webroot/images/rock_carvings_md.jpg">
-      </figure>
-      <button class="next" aria-label="Next Photo">→</button>
-    </div>
-  </div>
+  <script>
+    const previousImage = document.getElementById('previous_image');
 
+    const handleClick = (e) => {
+      const imageLink = e.target.closest('.images__link');
+      if (imageLink) {
+        e.preventDefault();
+        previousImage.querySelector('img').src = imageLink.href
+      }
+    }
+
+    window.addEventListener('click', handleClick);
+  </script>
 </body>
 </html>
