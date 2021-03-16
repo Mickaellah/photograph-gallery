@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+  .footer {
+    padding-block-start: 72px;
+  }
   .footer > * {
     max-width: $max-width;
     margin-inline-start: $margin-auto;
@@ -8,6 +11,7 @@
   .photograf {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0;
   }
 
   .photograf__container {
@@ -16,11 +20,11 @@
 
   .photograf__links_navigation {
     margin-inline-start: $gap;
-    margin-block-start: 80px;
+    margin-block-start: 16px;
   }
 
   .photograf__date_navigation {
-    margin-block-start: 93px;
+    margin-block-start: 28px;
   }
 
   .photograf__links_list:nth-of-type(1) {

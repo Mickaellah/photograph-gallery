@@ -6,7 +6,7 @@
 
 .carve__information {
   margin-block-start: 0;
-  margin-block-end: $margin-inline;
+  margin-block-end: 38px;
   font-size: 18px;
 }
 
@@ -16,9 +16,9 @@
 }
 
 .carve__navigation_container {
-  margin-block-start: 48px;
+  margin-block-start: 55px;
   display: flex;
-  margin-block-end: 80px;
+  margin-block-end: 46px;
 }
 
 .carve__list_item:not(:nth-of-type(1)) {

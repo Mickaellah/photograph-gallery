@@ -38,7 +38,6 @@
 
 .masthead__list_item {
   margin-block-start: $paragraph_font_size;
-  margin-inline-start: $margin-inline;
 }
 
 .masthead__link {
@@ -52,12 +51,13 @@
 
 [type="checkbox"]:checked ~ .masthead__navigation {
   position: absolute;
-    top: 8px;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-    z-index: 1;
-    background-color: skyblue;
-    transform: translateX(0);
+  text-align: center;
+  top: 8px;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  z-index: 1;
+  background-color: white;
+  transform: translateX(0);
 }
 

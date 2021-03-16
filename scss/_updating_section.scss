@@ -34,10 +34,13 @@ label {
 
 #email {
   margin-block-start: $paragraph_font_size;
-  padding-block: 15px;
+  padding-block-start: 13px;
+  padding-block-end: 11px;
   padding-inline-start: 16px;
   border-radius: 5px;
   border: none;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 ::placeholder {
@@ -60,12 +63,6 @@ label {
   margin-block-end: 38px;
   font-size: 16px;
   font-weight: 700;
-}
-
-.updating__subscribe_bttn:hover {
-  transform: scale(1.1);
-  border: 1px solid $color_white;
-  box-shadow: 2px 2px 2px tomato;
 }
 
 @media screen and (min-width: 768px), (max-width: 1000px) {

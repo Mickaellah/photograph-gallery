@@ -8,6 +8,7 @@ html {
 
 body {
   font-size: 18px;
+  margin: 0;
 }
 
 h1,
@@ -32,10 +33,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
-// img {
-//   width: 100%;
-// }
 
 small {
   font-size: $paragraph_font_size;

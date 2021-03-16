@@ -1,9 +1,15 @@
 @media (min-width: 768px) {
+  .masthead {
+    padding-block: 28px;
+  }
   .masthead > * {
     max-width: $max-width;
     margin-inline-start: $margin-auto;
     margin-inline-end: $margin-auto;
-    padding: 16px;
+  }
+
+  .masthead__list_item {
+    margin-inline-start: 16px;
   }
 
   .masthead__header {
@@ -18,7 +24,6 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin-block-start: 40px;
       margin-inline-start: 80vw;
   }
 

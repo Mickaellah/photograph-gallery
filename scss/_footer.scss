@@ -2,12 +2,13 @@
 
 .photograf {
   padding: $paragraph_font_size;
+  padding-block-start: 76px;
 }
 
 .photograf__heading {
   font-size: 24px;
   text-transform: uppercase;
-  margin-block-start: 60px;
+  margin-block-start: 0px;
 }
 
 .photograf__information {
@@ -27,7 +28,7 @@
 }
 
 .photograf__links_navigation {
-  margin-block-start: 62px;
+  margin-block-start: 79px;
 }
 
 .photograf__links_list:not(.photograf__links_list--about) {
@@ -48,7 +49,8 @@
 }
 
 .photograf__date_navigation {
-  margin-block-start: 77px;
+  margin-block-start: 78px;
+  margin-block-end: 38px;
 }
 
 .photograf__date_list {
@@ -74,7 +76,6 @@
 
 .photograf__date_list--place {
   margin-block-start: $paragraph_font_size;
-  margin-block-end: 53px;
 }
 
 .photograf__date {
