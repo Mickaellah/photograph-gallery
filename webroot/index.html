@@ -9,36 +9,44 @@
 <body>
   <input class="masthead__checkbox_input" type="checkbox" id="checkbox_menu">
 
-  <header class="masthead">
-    <h1 class="masthead__header">
-      Photograf
-    </h1>
-
-    <div class="masthead__menu">
-      <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+  <div class="masthead__container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead__header">
+          Photograf
+        </h1>
+    
+        <div class="masthead__menu">
+          <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+        </div>
+      </header>
+    
+      <div class="modal">
+        <div class="modal-box">
+          <nav class="masthead__navigation">
+            <sp class="close-button">X</sp>
+            <ul class="masthead__navigation_container">
+              <li class="masthead__list_item">
+                <a class="masthead__link" href="/">Home</a>
+              </li>
+              <li class="masthead__list_item">
+                <a class="masthead__link" href="/about">About</a>
+              </li>
+              <li class="masthead__list_item">
+                <a class="masthead__link" href="/portfolio">Portfolio</a>
+              </li>
+              <li class="masthead__list_item">
+                <a class="masthead__link" href="/blog">Blog</a>
+              </li>
+              <li class="masthead__list_item">
+                <a class="masthead__link" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-
-  </header>
-
-  <nav class="masthead__navigation">
-    <ul class="masthead__navigation_container">
-      <li class="masthead__list_item">
-        <a class="masthead__link" href="/">Home</a>
-      </li>
-      <li class="masthead__list_item">
-        <a class="masthead__link" href="/about">About</a>
-      </li>
-      <li class="masthead__list_item">
-        <a class="masthead__link" href="/portfolio">Portfolio</a>
-      </li>
-      <li class="masthead__list_item">
-        <a class="masthead__link" href="/blog">Blog</a>
-      </li>
-      <li class="masthead__list_item">
-        <a class="masthead__link" href="/contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+  </div>
 
   <main>
     <section class="beauty">
@@ -368,6 +376,24 @@
         item.className += " active"
       })
     })
+
+    let modal = document.querySelector(".modal");
+        let show = document.querySelector(".masthead__label_menu");
+        let closeButton = document.querySelector(".close-button");
+
+        function toggleModal() {
+            modal.classList.toggle("masthead__label_menu");
+        }
+
+        function windowOnClick(event) {
+            if (event.target === modal) {
+                toggleModal();
+            }
+        }
+
+        show.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        window.addEventListener("click", windowOnClick);
 
     window.addEventListener('click', handleClick);
   </script>
