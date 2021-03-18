@@ -73,7 +73,7 @@
               <a class="images__link" href="./images/rock_carvings_md.jpg">
                 <picture>
                   <source type="image/webp" srcset="./images/rock_carvings_sm.webp">
-                    <img class="beauty__image beauty__image--rock_carving_sm" src="./images/rock_carvings_sm.jpg" alt="Rock carving">
+                    <img class="beauty__image active beauty__image--rock_carving_sm" src="./images/rock_carvings_sm.jpg" alt="Rock carving">
                   </source>
                 </picture>
               </a>
@@ -359,6 +359,15 @@
         previousImage.querySelector('img').src = imageLink.href
       }
     }
+
+    const images = document.querySelectorAll('.beauty__image');
+    Array.from(images).forEach(item => {
+      item.addEventListener("click", () => {
+        let selected = document.getElementsByClassName("active");
+        selected[0].className = selected[0].className.replace(" active", "");
+        item.className += " active"
+      })
+    })
 
     window.addEventListener('click', handleClick);
   </script>

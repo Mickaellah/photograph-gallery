@@ -176,10 +176,11 @@ a:hover {
   width: 200px;
   border-radius: 5px; }
 
-.beauty__image:active,
-.beauty__image:focus,
-.beauty__image:hover {
+.beauty__image {
   opacity: 0.7; }
+
+.active {
+  opacity: 1; }
 
 .beauty__images_navigation_container {
   display: flex;
