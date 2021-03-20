@@ -9,44 +9,43 @@
 <body>
   <input class="masthead__checkbox_input" type="checkbox" id="checkbox_menu">
 
-  <div class="masthead__container">
-    <div>
-      <header class="masthead">
-        <h1 class="masthead__header">
-          Photograf
-        </h1>
-    
-        <div class="masthead__menu">
-          <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
-        </div>
-      </header>
-    
-      <div class="modal">
-        <div class="modal-box">
-          <nav class="masthead__navigation">
-            <sp class="close-button">X</sp>
-            <ul class="masthead__navigation_container">
-              <li class="masthead__list_item">
-                <a class="masthead__link" href="/">Home</a>
-              </li>
-              <li class="masthead__list_item">
-                <a class="masthead__link" href="/about">About</a>
-              </li>
-              <li class="masthead__list_item">
-                <a class="masthead__link" href="/portfolio">Portfolio</a>
-              </li>
-              <li class="masthead__list_item">
-                <a class="masthead__link" href="/blog">Blog</a>
-              </li>
-              <li class="masthead__list_item">
-                <a class="masthead__link" href="/contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
+    <article class="masthead__container">
+      <div class="masthead__content">
+        <header class="masthead">
+          <h1 class="masthead__header">
+            Photograf
+          </h1>
+          <div class="masthead__menu">
+            <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+          </div>
+        </header>
+      
+        <div class="modal">
+          <div class="modal_box">
+            <img class="close-button" src="../webroot/icons/close-24px.svg" />
+            <nav class="masthead__navigation">
+              <ul class="masthead__navigation_container">
+                <li class="masthead__list_item">
+                  <a class="masthead__link" href="/">Home</a>
+                </li>
+                <li class="masthead__list_item">
+                  <a class="masthead__link" href="/about">About</a>
+                </li>
+                <li class="masthead__list_item">
+                  <a class="masthead__link" href="/portfolio">Portfolio</a>
+                </li>
+                <li class="masthead__list_item">
+                  <a class="masthead__link" href="/blog">Blog</a>
+                </li>
+                <li class="masthead__list_item">
+                  <a class="masthead__link" href="/contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </article>
 
   <main>
     <section class="beauty">
@@ -223,24 +222,26 @@
     </section>
 
     <section class="updating">
-      <header class="updating__header">
-        <div class="container">
-          <h3 class="updating__heading">
-            Stay up-to-date with my updates
-          </h3>
-          <p class="updating__category">
-            Latest
-          </p>
-        </div>
-      </header>
-
-      <form class="updating__form">
-        <div class="form_container">
-          <label for="email">Your email address</label>
-          <input type="email" id="email" placeholder="e.g.jesse@gmail.com">
-        </div>
-        <button class="updating__subscribe_bttn">Subscribe</button>
-      </form>
+      <article class="updating__container">
+        <header class="updating__header">
+          <div class="container">
+            <h3 class="updating__heading">
+              Stay up-to-date with my updates
+            </h3>
+            <p class="updating__category">
+              Latest
+            </p>
+          </div>
+        </header>
+  
+        <form class="updating__form">
+          <div class="form_container">
+            <label for="email">Your email address</label>
+            <input type="email" id="email" placeholder="e.g.jesse@gmail.com">
+          </div>
+          <button class="updating__subscribe_bttn">Subscribe</button>
+        </form>
+      </article>
     </section>
   </main>
   <footer class="footer">

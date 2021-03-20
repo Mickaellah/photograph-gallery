@@ -1,19 +1,18 @@
 @import "variables";
 
 @media (min-width: 768px) {
-  .updating {
+  .updating__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
   }
 
-  .updating__header {
-    max-width: 500px;
-    margin-block-start: 29px;
-  }
 
   .updating__form {
     display: flex;
-    margin-block-start: 116px;
+    margin-block-start: 90px;
     margin-block-end: 100px;
   } 
 
