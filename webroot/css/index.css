@@ -52,7 +52,7 @@ a:hover {
 
 @media (min-width: 768px) {
   section > * {
-    max-width: 1000px;
+    max-width: 1170px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
   h1 {
@@ -149,7 +149,7 @@ input[type="checkbox"] {
   margin: 0; }
 
 .masthead__content {
-  max-width: 1000px;
+  max-width: 1170px;
   margin-inline-start: auto;
   margin-inline-end: auto;
   display: flex;
@@ -380,7 +380,7 @@ label {
   .updating__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 1000px;
+    max-width: 1170px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
   .updating__form {
@@ -469,7 +469,7 @@ label {
   .footer {
     padding-block-start: 72px; }
   .footer > * {
-    max-width: 1000px;
+    max-width: 1170px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
   .photograf {
