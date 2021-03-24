@@ -50,7 +50,7 @@ a:hover {
   color: purple;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   section > * {
     max-width: $max-width;
     margin-inline-start: $margin-auto;

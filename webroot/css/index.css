@@ -50,7 +50,7 @@ a {
 a:hover {
   color: purple; }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   section > * {
     max-width: 1170px;
     margin-inline-start: auto;
@@ -64,7 +64,7 @@ a:hover {
   h4 {
     font-size: calc($gap / 2); } }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .masthead {
     padding: 16px;
     display: contents;
@@ -166,7 +166,7 @@ input[type="checkbox"] {
 .masthead__bttn_container {
   margin-block-start: 8px; }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .masthead__menu {
     display: none; }
   .masthead__navigation_container {
@@ -264,7 +264,7 @@ input[type="checkbox"] {
 .beauty__number {
   font-weight: 700; }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .beauty__heading {
     max-width: 500px; }
   .beauty__portfolio_link {
@@ -376,7 +376,7 @@ label {
   .updating__subscribe_bttn {
     height: 48px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .updating__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -465,7 +465,7 @@ label {
   border-top: 1px solid lightgray;
   padding: 16px; }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .footer {
     padding-block-start: 72px; }
   .footer > * {
