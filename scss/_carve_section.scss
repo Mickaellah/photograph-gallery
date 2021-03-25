@@ -1,12 +1,12 @@
 @import "variables";
 
 .carve {
-  padding: $paragraph_font_size;
+  padding-block: $paragraph_font_size;
 }
 
 .carve__information {
-  margin-block-start: 0;
-  margin-block-end: 38px;
+  margin-block-start: 29px;
+  margin-block-end: 32px;
   font-size: 18px;
 }
 
@@ -16,9 +16,9 @@
 }
 
 .carve__navigation_container {
-  margin-block-start: 55px;
+  margin-block-start: 48px;
   display: flex;
-  margin-block-end: 46px;
+  margin-block-end: 64px;
 }
 
 .carve__list_item:not(:nth-of-type(1)) {

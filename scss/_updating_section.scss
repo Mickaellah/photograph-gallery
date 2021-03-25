@@ -21,7 +21,7 @@
 }
 
 .form_container {
-  margin-block-start: 16px;
+  margin-block-start: 44px;
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@ label {
 }
 
 #email {
-  margin-block-start: $paragraph_font_size;
+  margin-block-start: 12px;
   padding-block-start: 13px;
   padding-block-end: 11px;
   padding-inline-start: 16px;
@@ -55,7 +55,8 @@ label {
 .updating__subscribe_bttn {
   margin-block-start: $paragraph_font_size;
   padding-inline: $gap;
-  padding-block: $paragraph_font_size;
+  padding-block-start: 13px;
+  padding-block-end: 11px;
   border-radius: 5px;
   color: $color_white;
   background-color: $primary_color;

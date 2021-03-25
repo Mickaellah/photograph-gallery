@@ -9,6 +9,7 @@
   font-size: 24px;
   text-transform: uppercase;
   margin-block-start: 0px;
+  margin-block-end: 20px;
 }
 
 .photograf__information {
@@ -17,6 +18,7 @@
 
 .photograf__navigation_container {
   display: flex;
+  margin-block-start: 0;
 }
 
 .photograf__list_item {
@@ -32,7 +34,7 @@
 }
 
 .photograf__links_list:not(.photograf__links_list--about) {
-  margin-block-start: $paragraph_font_size;
+  margin-block-start: 8px;
 }
 
 .photograf__links_list--about {
@@ -49,8 +51,8 @@
 }
 
 .photograf__date_navigation {
-  margin-block-start: 78px;
-  margin-block-end: 38px;
+  margin-block-start: 75px;
+  margin-block-end: 23px;
 }
 
 .photograf__date_list {
@@ -84,8 +86,12 @@
 }
 
 .photograf__copyright {
-  margin-block-start: $margin-inline;
+  margin-block-start: $paragraph_font_size;
   color: $text-color;
   border-top: 1px solid lightgray;
   padding: $paragraph_font_size;
+}
+
+.photograf__writer {
+  margin-block-start: 0px;
 }
