@@ -4,6 +4,10 @@
   padding-block: $paragraph_font_size;
 }
 
+.carve__heading {
+  margin-block-start: 10px;
+}
+
 .carve__information {
   margin-block-start: 29px;
   margin-block-end: 32px;
@@ -18,7 +22,7 @@
 .carve__navigation_container {
   margin-block-start: 48px;
   display: flex;
-  margin-block-end: 64px;
+  margin-block-end: 70px;
 }
 
 .carve__list_item:not(:nth-of-type(1)) {

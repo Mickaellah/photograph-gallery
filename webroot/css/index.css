@@ -75,9 +75,13 @@ a:hover {
     display: block;
     padding-block: 0;
     margin: 16px; }
+  .masthead__header {
+    padding-inline-start: 14px;
+    margin-block-start: 16px; }
   .masthead__menu {
-    margin-block-start: 32px;
-    margin-inline-end: 32px; }
+    margin-block-start: 24px;
+    margin-inline-end: 32px;
+    margin-block-end: -2px; }
   .masthead__label_menu {
     cursor: pointer;
     color: transparent;
@@ -197,7 +201,8 @@ input[type="checkbox"] {
   margin-inline-end: 16px; }
 
 .beauty__portfolio_link {
-  margin-block-end: 61px; }
+  margin-block-end: 61px;
+  margin-block-start: 12px; }
 
 .beauty__link {
   text-decoration: none;
@@ -243,7 +248,7 @@ input[type="checkbox"] {
   height: 100px; }
 
 .beauty__navigation {
-  margin-block-start: 76px; }
+  margin-block-start: 68px; }
 
 .beauty__information_container {
   display: grid;
@@ -299,6 +304,9 @@ input[type="checkbox"] {
 .carve {
   padding-block: 16px; }
 
+.carve__heading {
+  margin-block-start: 10px; }
+
 .carve__information {
   margin-block-start: 29px;
   margin-block-end: 32px;
@@ -311,7 +319,7 @@ input[type="checkbox"] {
 .carve__navigation_container {
   margin-block-start: 48px;
   display: flex;
-  margin-block-end: 64px; }
+  margin-block-end: 70px; }
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px; }
