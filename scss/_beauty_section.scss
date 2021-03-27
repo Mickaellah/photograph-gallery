@@ -2,6 +2,8 @@
 
 .beauty {
   padding: $paragraph_font_size;
+  padding-inline-start: $padding_inline_start;
+  padding-inline-end: $padding_inline_end;
 }
 
 .beauty__header {

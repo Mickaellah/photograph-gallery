@@ -187,7 +187,9 @@ input[type="checkbox"] {
     margin-block-start: paragraph_font_size; } }
 
 .beauty {
-  padding: 16px; }
+  padding: 16px;
+  padding-inline-start: 14px;
+  padding-inline-end: 15px; }
 
 .beauty__header {
   display: flex;
@@ -326,7 +328,8 @@ input[type="checkbox"] {
 
 .updating {
   background-color: #FFDD78;
-  padding: 16px; }
+  padding-inline-start: 14px;
+  padding-inline-end: 15px; }
 
 .container {
   display: flex;
@@ -336,7 +339,7 @@ input[type="checkbox"] {
   margin-block-start: 0; }
 
 .updating__category {
-  margin-block-start: 47px;
+  margin-block-start: 64px;
   text-transform: uppercase;
   font-size: 16px; }
 
@@ -376,7 +379,7 @@ label {
   color: white;
   background-color: #434ccc;
   border: none;
-  margin-block-end: 38px;
+  margin-block-end: 54px;
   font-size: 16px;
   font-weight: 700; }
 
@@ -408,7 +411,9 @@ label {
 
 .photograf {
   padding: 16px;
-  padding-block-start: 76px; }
+  padding-block-start: 76px;
+  padding-inline-start: 14px;
+  padding-inline-end: 15px; }
 
 .photograf__heading {
   font-size: 24px;
@@ -421,7 +426,7 @@ label {
 
 .photograf__navigation_container {
   display: flex;
-  margin-block-start: 0; }
+  margin-block-start: 8px; }
 
 .photograf__list_item {
   margin-block-start: 16px; }
@@ -430,13 +435,13 @@ label {
   margin-inline-start: 10px; }
 
 .photograf__links_navigation {
-  margin-block-start: 79px; }
+  margin-block-start: 70px; }
 
 .photograf__links_list:not(.photograf__links_list--about) {
   margin-block-start: 8px; }
 
 .photograf__links_list--about {
-  margin-block-start: 24px; }
+  margin-block-start: 20px; }
 
 .photograf__link {
   color: rgba(0, 0, 0, 0.5); }

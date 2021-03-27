@@ -2,7 +2,8 @@
 
 .updating {
   background-color: #FFDD78;
-  padding: $paragraph_font_size;
+  padding-inline-start: $padding_inline_start;
+  padding-inline-end: $padding_inline_end;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 .updating__category {
-  margin-block-start: 47px;
+  margin-block-start: 64px;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -61,7 +62,7 @@ label {
   color: $color_white;
   background-color: $primary_color;
   border: none;
-  margin-block-end: 38px;
+  margin-block-end: 54px;
   font-size: 16px;
   font-weight: 700;
 }

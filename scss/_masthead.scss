@@ -1,3 +1,5 @@
+@import "variables";
+
 @media (max-width: 900px) {
   .masthead {
       padding: 16px;
@@ -13,7 +15,7 @@
   }
 
   .masthead__header {
-    padding-inline-start: 14px;
+    padding-inline-start: $padding_inline_start;
     margin-block-start: 16px;
   }
 

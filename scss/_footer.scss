@@ -3,6 +3,8 @@
 .photograf {
   padding: $paragraph_font_size;
   padding-block-start: 76px;
+  padding-inline-start: $padding_inline_start;
+  padding-inline-end: $padding_inline_end;
 }
 
 .photograf__heading {
@@ -18,7 +20,7 @@
 
 .photograf__navigation_container {
   display: flex;
-  margin-block-start: 0;
+  margin-block-start: 8px;
 }
 
 .photograf__list_item {
@@ -30,7 +32,7 @@
 }
 
 .photograf__links_navigation {
-  margin-block-start: 79px;
+  margin-block-start: 70px;
 }
 
 .photograf__links_list:not(.photograf__links_list--about) {
@@ -38,7 +40,7 @@
 }
 
 .photograf__links_list--about {
-  margin-block-start: 24px;
+  margin-block-start: 20px;
 }
 
 .photograf__link {
