@@ -19,11 +19,13 @@ input[type="checkbox"] {
 
 .masthead__header {
   text-transform: uppercase;
+  line-height: 48px;
 }
 
 .masthead__link {
   color: white;
   font-weight: 700;
+  line-height: 24px;
 }
 
 .masthead__bttn_container {
@@ -53,6 +55,6 @@ input[type="checkbox"] {
 
 @media (min-width: 767px) {
   .masthead__navigation_container {
-    margin-block-start: paragraph_font_size;
+    transform: translateX(-15px);
   }
 }

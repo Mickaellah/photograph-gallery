@@ -16,7 +16,8 @@
 
   .masthead__header {
     padding-inline-start: $padding_inline_start;
-    margin-block-start: 16px;
+    margin-block-start: 6px;
+    margin-block-end: -10px;
   }
 
   .masthead__menu {
@@ -61,6 +62,10 @@
 
   .masthead__list_item:not(:nth-child(1)) {
       margin-inline-start: 0;
+  }
+
+  .masthead__link {
+    line-height: 24px;
   }
 
   input[type="checkbox"] {
@@ -112,4 +117,11 @@
       visibility: visible;
       transform: scale(1.0);
     }
+}
+
+@media (max-width: 1170px) and (min-width: 900px) {
+  .masthead {
+    padding-inline-start: $padding_inline_start;
+    padding-inline-end: -15px;
+  }
 }
