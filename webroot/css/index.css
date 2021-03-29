@@ -235,7 +235,7 @@ input[type="checkbox"] {
   width: 100%; }
 
 .beauty__image {
-  width: 170px;
+  width: 138px;
   border-radius: 5px; }
 
 .beauty__image {
@@ -254,7 +254,7 @@ input[type="checkbox"] {
   display: none; }
 
 .beauty__images_navigation_list-item:not(:nth-child(1)) {
-  margin-inline-start: 16px; }
+  margin-inline-start: 9px; }
 
 .beauty__image--ripples_half {
   height: 100px; }
@@ -301,9 +301,7 @@ input[type="checkbox"] {
     display: flex;
     margin: 0; }
   .beauty__images_navigation_list-item:not(:nth-child(1)) {
-    margin-inline-start: 10px; }
-  .beauty__image {
-    width: 100%; }
+    margin-inline-start: 9px; }
   .beauty__navigation {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
