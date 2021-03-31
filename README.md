@@ -16,7 +16,7 @@ In this project, I work with html and css to create this photograf page. There i
 
 ## How does it work
 
-For the images, the will replace the big image and you will see the bigger version of the little image. To do that change or that replacement, I used a bit of javascript.
+For the images, when clicking on the images, you will see the bigger version of the little image. To do that change or that replacement, I used a bit of javascript.
 
 ## How To Use
 
