@@ -22,9 +22,15 @@
 .carve__navigation_container {
   margin-block-start: 48px;
   display: flex;
-  margin-block-end: 70px;
+  margin-block-end: 40px;
 }
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px;
+}
+
+@media (max-width: 900px) {
+  .carve__navigation_container {
+    margin-block-end: 70px;
+  }
 }

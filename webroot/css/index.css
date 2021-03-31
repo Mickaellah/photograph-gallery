@@ -169,7 +169,8 @@ input[type="checkbox"] {
 
 .masthead__header {
   text-transform: uppercase;
-  line-height: 48px; }
+  line-height: 48px;
+  padding-block: 16px; }
 
 .masthead__link {
   color: white;
@@ -282,9 +283,10 @@ input[type="checkbox"] {
 
 @media (min-width: 900px) {
   .beauty__heading {
-    max-width: 500px; }
+    max-width: 500px;
+    margin-block-start: 20px; }
   .beauty__portfolio_link {
-    margin-block-start: 28px;
+    margin-block-start: 32px;
     margin-block-end: 16px; }
   .beauty__images_container {
     display: flex;
@@ -308,6 +310,8 @@ input[type="checkbox"] {
     grid-column-gap: 64px;
     column-gap: 64px;
     margin-block-start: 72px; }
+  .beauty__information_container {
+    margin-block-start: 0; }
   .carve {
     margin-block-start: -24px; } }
 
@@ -329,10 +333,14 @@ input[type="checkbox"] {
 .carve__navigation_container {
   margin-block-start: 48px;
   display: flex;
-  margin-block-end: 70px; }
+  margin-block-end: 40px; }
 
 .carve__list_item:not(:nth-of-type(1)) {
   margin-inline-start: 10px; }
+
+@media (max-width: 900px) {
+  .carve__navigation_container {
+    margin-block-end: 70px; } }
 
 .updating {
   background-color: #FFDD78;
