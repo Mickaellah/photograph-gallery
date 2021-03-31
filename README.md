@@ -1,20 +1,10 @@
 # Country Quiz
 
-## Table of Contents
 
--   [Overview](#overview)
--   [Built With](#built-with)
--   [What I did](#what-I-did)
--   [How does it work](#how-does-it-work)
--   [How to use](#how-to-use)
--   [Contact](#contact)
-
-<!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](./front-end-finals.jpg)
-![screenshot](./front-end-finals-images.jpg)
+![screenshot](./front_end_finals.jpg)
 
 ### Built With
 
