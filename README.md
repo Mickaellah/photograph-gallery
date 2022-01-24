@@ -6,17 +6,17 @@
 
 ### Built With
 
--   [Html](https://html.com/)
--   [Css](https://w3.org/Style/CSS/Overview.en.html)
--   [Sass](https://sass-lang.com/)
+-   [HTML](https://html.com/)
+-   [CSS](https://w3.org/Style/CSS/Overview.en.html)
+-   [SASS](https://sass-lang.com/)
 
 ## What I did
 
-In this project, I work with html and css to create this photograf page. There is a bit of javascript for the images. Getting the right element to use is the most challenging part and also the stuctures to use. To start the website, you need to create a repository and all the files that are needed. In this project I used sass so I needed package and changed the script attribute in the package.json file for compiling scss file into css.
+In this project, I work with HTML and CSS to create this photograph page. There is a bit of JavaScript for the images. Getting the right element is the most challenging part and also the stuctures to use. To start the website, you need to create a repository and all the files that are needed. In this project, I used SASS so I needed to change the script attribute in the package.json file for compiling SCSS file into CSS.
 
 ## How does it work
 
-For the images, when clicking on the images, you will see the bigger version of the little image. To do that change or that replacement, I used a bit of javascript.
+When users click on an image, they will see the bigger version of that image. To do that change or that replacement, I used a bit of JavaScript.
 
 ## How To Use
 
@@ -40,6 +40,5 @@ $ npm run scss:watch
 
 ## Contact
 
--   Website [your-website.com](https://{your-web-site-link})
 -   GitHub [@Mickaella](https://github.com/Mickaellah/front-end-finals)
 
