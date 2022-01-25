@@ -25,8 +25,11 @@ When users click on an image, they will see the bigger version of that image. To
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+# Fork this repository
+$ https://github.com/Mickaellah/photograph-gallery.git
+
+# Clone the forked repository
+$ git clone https://github.com/[your-user-name]/photograph-gallery.git
 
 # Install dependencies
 $ npm install
