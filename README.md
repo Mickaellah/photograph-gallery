@@ -12,11 +12,11 @@
 
 ## What I did
 
-In this project, I work with HTML and CSS to create this photograph page. There is a bit of JavaScript for the images. Getting the right element is the most challenging part and also the stuctures to use. To start the website, you need to create a repository and all the files that are needed. In this project, I used SASS so I needed to change the script attribute in the package.json file for compiling SCSS file into CSS.
+This is a HTML and CSS based project which is build to create photograph gallery page. There is a bit of JavaScript add for the images slider. To start the website, you need to create a repository and all the files that are needed. SASS is also used in this project so the script attribute in the package.json file needs to be changed to compile SCSS file into CSS.
 
 ## How does it work
 
-When users click on an image, they will see the bigger version of that image. To do that change or that replacement, I used a bit of JavaScript.
+Bigger version of each image is going to be seen when clicking on each item. A few lines of Javascript code is added to implement that functionality.
 
 ## How To Use
 
